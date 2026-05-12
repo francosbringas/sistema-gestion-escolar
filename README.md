@@ -1,6 +1,6 @@
 # Sistema de Gestión Escolar
 
-Sistema web multirol para la gestión académica de un curso escolar. Desarrollado como proyecto escolar en 2025/2026.
+Sistema web multirol para la gestión académica de un curso escolar. Desarrollado como proyecto escolar en 2025.
 
 ## ¿Qué hace?
 
