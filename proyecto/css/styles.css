@@ -1,0 +1,113 @@
+/* estilos generales */
+body {
+    background-color: #f8f9fa; /* color de fondo claro */
+    font-family: 'Arial', sans-serif; /* fuente personalizada */
+}
+
+h1 {
+    color: #343a40; /* color del encabezado */
+    margin-bottom: 20px; /* espacio debajo del encabezado */
+}
+
+/* estilos para tablas */
+.table {
+    margin-top: 20px; /* espacio arriba de la tabla */
+    border: 1px solid #dee2e6; /* borde de la tabla */
+}
+
+.table th {
+    background-color: #007bff; /* color de fondo de los encabezados */
+    color: white; /* color del texto de los encabezados */
+}
+
+.table td {
+    vertical-align: middle; /* alinear verticalmente el contenido de las celdas */
+}
+
+/* estilos para botones */
+.btn-primary {
+    background-color: #007bff; /* color de fondo del botón primario */
+    border-color: #007bff; /* color del borde del botón primario */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* color de fondo al pasar el mouse */
+    border-color: #0056b3; /* color del borde al pasar el mouse */
+}
+
+/* estilos para la lista de navegacion */
+.list-group-item {
+    transition: background-color 0.3s; /* transicion suave para el fondo */
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef; /* color de fondo al pasar el mouse sobre un elemento de la lista */
+}
+
+/* Estilos para formularios */
+.form-control {
+    border: 1px solid #ced4da; /* borde de los campos de formulario */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* color del borde al enfocar el campo */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* sombra al enfocar el campo */
+}
+
+/* estilos para mensajes de alerta */
+.alert {
+    margin-top: 20px; /* espacio arriba de las alertas */
+}
+
+/* estilos para el pie de pagina */
+footer {
+    margin-top: 40px; /* espacio arriba del pie de pagina */
+    text-align: center; /* Centrar el texto del pie de pagina */
+    color: #6c757d; /* color del texto del pie de pagina */
+}
+
+/* estilos especificos para las interfaces */
+.container {
+    max-width: 1200px; /* ancho maximo del contenedor */
+    margin: auto; /* centrar el contenedor */
+}
+
+.mt-4 {
+    margin-top: 1.5rem; /* Margen superior */
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem; /* margen inferior */
+}
+
+/* estilos para tarjetas */
+.card {
+    margin-bottom: 20px; /* espacio debajo de las tarjetas */
+    border: 1px solid #dee2e6; /* borde de las tarjetas */
+}
+
+.card-header {
+    background-color: #007bff; /* Color de fondo del encabezado de la tarjeta */
+    color: white; /* Color del texto del encabezado de la tarjeta */
+}
+
+.card-body {
+    background-color: white; /* Color de fondo del cuerpo de la tarjeta */
+}
+
+/* estilos para el menu de navegacion */
+.navbar {
+    margin-bottom: 20px; /* espacio debajo de la barra de navegacion */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* tamaño de la fuente de la marca */
+}
+
+.nav-link {
+    color: #007bff; /* color de los enlaces de navegacion */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* color de los enlaces de navegacion al pasar el mouse */
+}
